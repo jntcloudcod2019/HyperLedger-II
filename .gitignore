@@ -1,0 +1,23 @@
+## .NET
+bin/
+obj/
+*.user
+
+## appsettings locais (nunca commitar segredos)
+appsettings.Development.json
+appsettings.Local.json
+*.env
+.env
+local.settings.json
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+
+## Exclude sensitive or unnecessary folders
+.claude/
+docs/
+Etapas/
+plugin/
